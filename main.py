@@ -177,8 +177,8 @@ try:
     option.add_argument('--disable-blink-features=AutomationControlled')
     option.add_experimental_option("excludeSwitches", ["enable-logging"])
     #option.add_argument("user-agent=" + user_agents)
-    driver = uc.Chrome()
-    #driver = webdriver.Chrome(executable_path='C:\chromedriver.exe', options=option)
+    #driver = uc.Chrome()
+    driver = webdriver.Chrome("C:\SeleniumWebDrivers\ChromeDriver\chromedriver.exe", options=option)
 except Exception as e: # Jangan di Ubah
     driver.quit() # Jangan di Ubah
     console.log("[-] Cek Versi ChromeDriver Anda!") # Jangan di Ubah
