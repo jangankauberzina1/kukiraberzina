@@ -23,7 +23,7 @@ jobs:
          - name: Install Dependencies
            run: |
               python -m pip install --upgrade pip
-              pip install selenium requests random-text-generator undetected-chromedriver rich
+              pip install selenium requests random-text-generator undetected-chromedriver rich random-user-agent
          - name: Mulai
            timeout-minutes: 13
            continue-on-error: True
