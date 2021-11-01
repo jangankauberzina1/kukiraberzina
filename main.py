@@ -17,7 +17,7 @@ from random_user_agent.user_agent import UserAgent # Jangan di Ubah
 from random_user_agent.params import SoftwareName, OperatingSystem, HardwareType, SoftwareType # Jangan di Ubah
 from rich.console import Console
 from rich.traceback import install
-import undetected_chromedriver.v2 as uc
+import undetected_chromedriver as uc
 console = Console()
 install()
 # ++++++++++++++++++++++++ #
